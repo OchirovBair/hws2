@@ -1,35 +1,82 @@
 .greetingForm {
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
 }
 
 .inputAndButtonContainer {
+    display: flex;
+    gap: 12px;
+    align-items: flex-start;
+
+    & > div {
+        display: flex;
+        flex-direction: column;
+        gap: 7px;
+    }
 }
 
 .error {
+    color: rgb(204, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
 }
 
 .input {
+    width: 372px;
+    height: 36px;
+    padding: 8px 12px;
 }
 
 .input:focus {
 }
 
 .errorInput {
+    border: 1px solid rgb(204, 0, 0);
+    border-radius: 5px;
+    width: 372px;
+    height: 36px;
+    padding: 8px 12px;
 }
 
 .button {
+    border-radius: 3px;
+    background-color: rgb(0, 102, 204);
+    width: 78px;
+    height: 36px;
+    border: none;
+
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
 }
 
-.button:focus {
+.button:focus,
+.button:hover {
+    transform: scale(105%);
 }
 
 .button:active {
+    transform: scale(100%);
 }
 
 .button:disabled {
+    opacity: .5;
+    transform: none;
 }
 
 .text {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
 }
 
 .greeting {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 17px;
 }

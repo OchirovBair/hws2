@@ -24,11 +24,18 @@
     box-shadow: 0 1px 2px 0 rgba(29, 33, 38, 0.1),0 5px 20px 0 rgba(29, 33, 38, 0.03);
     background-color: rgb(245, 247, 251);
     padding: 8px 11px;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 0 ;
+    position: relative;
 }
 
 .friendText:after {
-
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    content: '';
+    width: 15px;
+    height: 15px;
+    background: radial-gradient(circle at 0px 0px, rgba( 0, 0, 0, 0) 15px, rgb(245, 247, 251) 0);
 }
 
 .friendName {
