@@ -1,35 +1,56 @@
 .button {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border-radius: 3px;
+    padding: 5px 24px;
+    border: none;
 }
 
 .disabled {
+    background-color: rgb(0, 77, 153);
+    opacity: 0.5;
+    color: rgb(0, 46, 92);
 }
 
 .secondary {
+    color: rgb(0, 102, 204);
+    background-color: inherit;
+    border: 1px solid rgb(0, 102, 204)
 }
 
 .default {
+    background-color: rgb(0, 102, 204)
 }
 
 .red {
+    background-color: rgb(204, 20, 57)
 }
 
 .default:hover {
+    background-color: rgb(0, 128, 255)
 }
 
 .red:hover {
+    background-color: rgb(255, 26, 71)
 }
 
 .secondary:hover {
+    background-color: rgb(229, 240, 250)
 }
 
 
 .default:active {
+    background-color: rgb(0, 89, 179)
 }
 
 .secondary:active {
+    background-color: rgb(201, 229, 255)
 }
 
 .red:active {
+    background-color: rgb(179, 18, 50)
 }
 
 .button:disabled {
