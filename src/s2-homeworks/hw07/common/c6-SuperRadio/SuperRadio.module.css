@@ -1,15 +1,45 @@
 .radio {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .radio::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    opacity: 0;
+    transition: all .3s;
 }
 
 
 .radio:checked::before {
+    opacity: 1;
 }
 
 .label {
+    display: flex;
+    gap: 13px;
 }
 
 .options {
+    display: flex;
+    flex-direction: column;
+    gap: 22px
+}
+
+.span {
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
 }

@@ -1,4 +1,12 @@
 .select {
+    padding: 5px 0 5px 10px;
+    min-width: 180px;
+
+    color: rgb(0, 0, 0);
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
 }
 
 .select:focus {
