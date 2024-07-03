@@ -1,7 +1,16 @@
 .tech {
-
+    color: rgb(0, 0, 0);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .loading {
-
+    color: rgb(77, 77, 77);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    text-align: end;
 }
