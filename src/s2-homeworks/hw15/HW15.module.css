@@ -1,27 +1,69 @@
+/*.tech {*/
+/*    width: 50vw;*/
+/*}*/
+
+/*.developer {*/
+
+/*}*/
+
+/*.techHeader {*/
+/*    width: 50vw;*/
+/*}*/
+
+/*.developerHeader {*/
+
+/*}*/
+
+/*.row {*/
+/*    display: flex;*/
+/*}*/
+
+/*.rowHeader {*/
+/*    display: flex;*/
+/*}*/
+
+/*.loading {*/
+
+/*}*/
+
 .tech {
-    width: 50vw;
+    flex: 1;
 }
 
 .developer {
-
+    flex: 1;
+    text-transform: capitalize;
 }
 
 .techHeader {
-    width: 50vw;
+    flex: 1;
+    text-transform: capitalize;
 }
 
 .developerHeader {
-
+    flex: 1;
+    text-transform: capitalize;
 }
 
 .row {
     display: flex;
+    width: 606px;
+    padding: 0.75rem 1rem;
+}
+
+.row:not(:last-child) {
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .rowHeader {
     display: flex;
+    font-weight: 600;
+    font-size: 1rem;
+    width: 606px;
+    padding: 0.625rem 1rem;
+    background-color: #e5e5e5;
 }
 
 .loading {
-
 }
+

@@ -50,7 +50,11 @@ const HW14 = () => {
         // делает студент
         const queryObj = {find: value}
         // добавить/заменить значение в квери урла
-        setSearchParams(prev => ({...prev, ...queryObj}))
+        setSearchParams(prev => {
+            console.log( Object.fromEntries(prev))
+            return  {...Object.fromEntries(prev), ...queryObj}
+        })
+        // setSearchParams({find: value})
         //
     }
 
